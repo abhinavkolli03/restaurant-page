@@ -47,8 +47,6 @@ body {
 
 .carousel {
     background: #512da8;
-    border-radius: 35px 35px 35px 35px;
-    overflow: hidden;
 }
 
 .carousel-item {
@@ -65,4 +63,10 @@ body {
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+#carouselButton {
+    right: 0px;
+    position: absolute;
+    bottom: 0px;
 }
