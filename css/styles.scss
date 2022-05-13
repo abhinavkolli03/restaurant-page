@@ -72,3 +72,25 @@ body {
     position: absolute;
     bottom: 0px;
 }
+
+.modal-content {
+    border: 0px;
+    .modal-header {
+        background-color: $background-dark;
+        color: floralwhite;
+        border: 0px;
+        .close {
+            color: floralwhite;
+        }
+    }
+    .modal-body {
+        background-color: $background-light;
+    }
+}
+
+.carousel-item {
+    .carousel-caption {
+        padding-left: 300px;
+        padding-top: 40px;
+    }
+}
